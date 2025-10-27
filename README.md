@@ -43,7 +43,7 @@ Es un entorno con X máquinas con X puertos abiertos. Como en cualquier examen d
 
 - **Importante:** No es necesario explotar servicios en muchas ocasiones, ni escalar privilegios dentro de las máquinas. Todo se puede hacer desde fuera sin complicaciones, al menos para las preguntas que yo tenía.
 
-- **Servidores Web:** Tener conocimientos sobre servidores web y su explotación.
+- **Servidores Web:** Tener conocimientos sobre servidores web y su explotación Apache,Nginx ...
 
 
 # English
