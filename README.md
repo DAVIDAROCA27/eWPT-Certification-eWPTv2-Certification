@@ -26,7 +26,7 @@ Es un entorno con X máquinas con X puertos abiertos. Como en cualquier examen d
 
 ## Consejos y cosas a tener en cuenta
 
-- **Vulnerabilidades clave** que me tocaron: LFI, XSS (Reflected/Stored) y SQLI. Nada complejo, todas muy simples con payloads básicos.
+- **Vulnerabilidades clave**  LFI, XSS (Reflected/Stored) y SQLI. Nada complejo, todas muy simples con payloads básicos.
 
 - **Herramientas:** Utilizar nuclei/nikto para cada URL. No os calentéis la cabeza, os sacará prácticamente todo.
 
@@ -77,7 +77,7 @@ It's an environment with X machines with X open ports. As in any exam of this ty
 
 ## Tips and Important Considerations
 
-- **Key vulnerabilities** I encountered: LFI, XSS (Reflected/Stored), and SQLI. Nothing complex, all very simple with basic payloads.
+- **Key vulnerabilities** LFI, XSS (Reflected/Stored), and SQLI. Nothing complex, all very simple with basic payloads.
 
 - **Tools:** Use nuclei/nikto for each URL. Don't overthink it - they'll reveal almost everything.
 
