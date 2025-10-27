@@ -23,12 +23,14 @@ Es un entorno con X máquinas con X puertos abiertos. Como en cualquier examen d
 - **Laboratorios de PortSwigger:** Yo solo hice los de SQLI y XSS, y con eso iba preparado.
   - https://portswigger.net/web-security/all-labs
   - Hacer CTF's de tryhackme y sitios como THEHACKERLABS aqui esta un excel con todas las maquinas para practicar https://docs.google.com/spreadsheets/d/1lt81_6Uor1v6O7vvnafnYm8mciINVIspiLYiDbnDOD8/edit?usp=sharing
+  - Este video de Youtube de Omar Palomino esta bastante bien aunque tarda mucho en explicar las cosas. https://www.youtube.com/watch?v=vZNax6jTmpE&t=10250s
 
 ## Consejos y cosas a tener en cuenta
 
 - **Vulnerabilidades clave**  LFI, XSS (Reflected/Stored) y SQLI. Nada complejo, todas muy simples con payloads básicos.
 
 - **Herramientas:** Utilizar nuclei/nikto para cada URL. No os calentéis la cabeza, os sacará prácticamente todo.
+-**Partiendo de conocimientos basicos de enumeracion**
 
 - **Conocimientos necesarios:**
   - Fuzzing básico de APIs
