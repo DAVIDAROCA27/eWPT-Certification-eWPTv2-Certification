@@ -20,7 +20,7 @@ Es un entorno con X máquinas con X puertos abiertos. Como en cualquier examen d
 
 ## Recursos recomendados
 
-- **Laboratorios de PortSwigger:** Yo solo hice los de SQLI y XSS, y con eso ibas más que preparado.
+- **Laboratorios de PortSwigger:** Yo solo hice los de SQLI y XSS, y con eso iba preparado.
   - https://portswigger.net/web-security/all-labs
   - Hacer CTF's de tryhackme y sitios como THEHACKERLABS aqui esta un excel con todas las maquinas para practicar https://docs.google.com/spreadsheets/d/1lt81_6Uor1v6O7vvnafnYm8mciINVIspiLYiDbnDOD8/edit?usp=sharing
 
@@ -35,7 +35,7 @@ Es un entorno con X máquinas con X puertos abiertos. Como en cualquier examen d
   - Manipulación de COOKIES y criptografía básica
   - Enumeración exhaustiva y correcta
   - Hash cracking (muy básico)
-  - OWASP TOP10 (para guiar enumeración y explotación)
+  - OWASP TOP10 (para guiar enumeración y explotación) Yo personalmente no lo utilice.
 
 - **⚠️ Advertencia importante:** No utilizar feroxbuster. El binario está en la máquina pero si lo ejecutas, te cargarás el entorno entero y tendrás que reiniciar.
 
@@ -86,7 +86,7 @@ It's an environment with X machines with X open ports. As in any exam of this ty
   - COOKIE manipulation and basic cryptography
   - Thorough and proper enumeration
   - Basic hash cracking
-  - OWASP TOP10 (to guide enumeration and exploitation)
+  - OWASP TOP10 (to guide enumeration and exploitation) I personaly don't use it 
 
 - **⚠️ Important warning:** Do not use feroxbuster. The binary is on the machine, but if you run it, you'll crash the entire environment and have to restart.
 
