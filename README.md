@@ -44,3 +44,54 @@ Es un entorno con X máquinas con X puertos abiertos. Como en cualquier examen d
 - **Importante:** No es necesario explotar servicios en muchas ocasiones, ni escalar privilegios dentro de las máquinas. Todo se puede hacer desde fuera sin complicaciones, al menos para las preguntas que yo tenía.
 
 - **Servidores Web:** Tener conocimientos sobre servidores web y su explotación.
+
+
+# English
+
+# eWPTv2 Certification - Guide and Personal Opinion
+
+<img width="1102" height="851" alt="image" src="https://github.com/user-attachments/assets/9c11e1b6-5745-469a-8a29-21384e2c1024" />
+
+## My Opinion on the Exam
+
+First of all: I don't think it's a complicated exam, but you need to have a solid foundation.
+
+**About pricing:** The $600 voucher with INE training access is not worth it. I also don't think the regular $400 voucher is worth it. In my case, I got all my INE certifications with a 50% discount (eJPT, CPPT, and eWPT). I managed to get all three for around $400. Otherwise, it's not worth it in my personal opinion.
+
+They usually release discounts every 3-4 months. What I did was pin the INE tab in my browser and check it every day for several weeks.
+
+I prepared a lot for it and ended up a bit disappointed. I was worried about the 10-hour exam duration, thinking I wouldn't have enough time, but a normal person can complete it in 5-6 hours. I always like to use every last minute and squeeze out all the juice.
+
+## The Exam
+
+The exam leaves a lot to be desired in my opinion. Any easy HackTheBox machine seems more complicated to me. You don't necessarily have to exploit services or escalate privileges once inside. It's not a CTF, so don't treat it as one.
+
+It's an environment with X machines with X open ports. As in any exam of this type, enumeration is crucial, except here most open ports are web-related, which might differ from other exams.
+
+## Recommended Resources
+
+- **PortSwigger Labs:** I only did the SQLI and XSS ones, and that was more than enough preparation.
+  - https://portswigger.net/web-security/all-labs
+- **CTF Practice:** Do CTFs on TryHackMe and sites like TheHackerLabs. Here's a spreadsheet with all the machines to practice:
+  - https://docs.google.com/spreadsheets/d/1lt81_6Uor1v6O7vvnafnYm8mciINVIspiLYiDbnDOD8/edit?usp=sharing
+
+## Tips and Important Considerations
+
+- **Key vulnerabilities** I encountered: LFI, XSS (Reflected/Stored), and SQLI. Nothing complex, all very simple with basic payloads.
+
+- **Tools:** Use nuclei/nikto for each URL. Don't overthink it - they'll reveal almost everything.
+
+- **Required knowledge:**
+  - Basic API fuzzing
+  - COOKIE manipulation and basic cryptography
+  - Thorough and proper enumeration
+  - Basic hash cracking
+  - OWASP TOP10 (to guide enumeration and exploitation)
+
+- **⚠️ Important warning:** Do not use feroxbuster. The binary is on the machine, but if you run it, you'll crash the entire environment and have to restart.
+
+- **CMS:** Know how to hack common CMS. Ask ChatGPT which were the 3 most common CMS 5-10 years ago and it will tell you. Know how to work with tools to enumerate users, extract databases, and move around comfortably.
+
+- **Important:** In many cases, it's not necessary to exploit services or escalate privileges inside the machines. Everything can be done from the outside without complications, at least for the questions I had.
+
+- **Web Servers:** Have knowledge about web servers and their exploitation.
